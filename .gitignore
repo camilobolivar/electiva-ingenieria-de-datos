@@ -16,3 +16,12 @@ data/gold/
 *.duckdb
 *.db
 artifacts/
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+*.duckdb-shm
+*.wal
+*.tmp
+data/*.duckdb*
+data/*.wal
